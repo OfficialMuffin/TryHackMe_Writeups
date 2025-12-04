@@ -133,9 +133,15 @@ A: `2e91c533615a9bb8929ac4bb76707b2444597ce063d84a4b33525e25074fff3f`
 
 ## What is the attachments file size? (Don't forget to add "KB" to your answer, NUM KB)
 
+We use the sha256 hash and use VirusTotal to confirm that the file is indeed malicious. It has a -2 community rating and 48 out of the 64 seurity vendors have marked it as malicious. It also tells us the exact file size of the file.
+
+A: `400.26 KB`
 
 ## What is the actual file extension of the attachment?
 
+We can inspect what the real file type by uploading it to CyberChef, searching and selecting `Detect File Type` and then uploading the file. CyberChef belives this file is a RAR archive. 
+
+A: `RAR`
 
 
 
